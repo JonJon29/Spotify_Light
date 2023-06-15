@@ -1,0 +1,18 @@
+[
+    {'start': 0.0, 'duration': 11.58152, 'confidence': 1.0, 'loudness': -6.559, 'tempo': 93.93, 'tempo_confidence': 0.901, 'key': 5, 'key_confidence': 0.379, 'mode': 0, 'mode_confidence': 0.619, 'time_signature': 4, 'time_signature_confidence': 1.0
+    },
+    {'start': 11.58152, 'duration': 9.69913, 'confidence': 0.847, 'loudness': -13.051, 'tempo': 93.099, 'tempo_confidence': 0.33, 'key': 7, 'key_confidence': 0.333, 'mode': 0, 'mode_confidence': 0.742, 'time_signature': 4, 'time_signature_confidence': 1.0
+    },
+    {'start': 21.28065, 'duration': 19.03966, 'confidence': 0.848, 'loudness': -8.557, 'tempo': 94.634, 'tempo_confidence': 0.335, 'key': 7, 'key_confidence': 0.462, 'mode': 0, 'mode_confidence': 0.531, 'time_signature': 4, 'time_signature_confidence': 1.0
+    },
+    {'start': 40.32031, 'duration': 22.51479, 'confidence': 0.017, 'loudness': -5.609, 'tempo': 94.039, 'tempo_confidence': 0.42, 'key': 7, 'key_confidence': 0.388, 'mode': 0, 'mode_confidence': 0.512, 'time_signature': 4, 'time_signature_confidence': 1.0
+    },
+    {'start': 62.8351, 'duration': 17.23411, 'confidence': 0.334, 'loudness': -2.615, 'tempo': 94.008, 'tempo_confidence': 0.704, 'key': 8, 'key_confidence': 0.065, 'mode': 1, 'mode_confidence': 0.427, 'time_signature': 4, 'time_signature_confidence': 1.0
+    },
+    {'start': 80.06921, 'duration': 22.98515, 'confidence': 0.213, 'loudness': -1.661, 'tempo': 94.168, 'tempo_confidence': 0.554, 'key': 2, 'key_confidence': 0.174, 'mode': 1, 'mode_confidence': 0.475, 'time_signature': 4, 'time_signature_confidence': 1.0
+    },
+    {'start': 103.05435, 'duration': 40.64832, 'confidence': 0.66, 'loudness': -6.279, 'tempo': 93.274, 'tempo_confidence': 0.395, 'key': 7, 'key_confidence': 0.362, 'mode': 0, 'mode_confidence': 0.448, 'time_signature': 4, 'time_signature_confidence': 0.984
+    },
+    {'start': 143.70267, 'duration': 40.96309, 'confidence': 0.219, 'loudness': -1.638, 'tempo': 94.006, 'tempo_confidence': 0.667, 'key': 0, 'key_confidence': 0.183, 'mode': 1, 'mode_confidence': 0.531, 'time_signature': 4, 'time_signature_confidence': 1.0
+    }
+]
