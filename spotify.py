@@ -46,3 +46,14 @@ def getSongAnalysis(token, id):
     analysis = json.loads(res.text)
 
     return analysis
+
+def getCurrentPosition(token):
+    url = 'https://api.spotify.com/v1/me/player'
+
+    headers = {
+            'Authorization' : 'Bearer ' + str(token)
+        }
+    res = requests.get(url, headers=headers)
+    player = json.loads(res.text)
+
+    return player
