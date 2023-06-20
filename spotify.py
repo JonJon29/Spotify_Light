@@ -57,3 +57,18 @@ def getCurrentPosition(token):
     player = json.loads(res.text)
 
     return player
+
+def startPlayback(token, songId):
+    url = 'https://api.spotify.com/v1/me/player/play'
+
+    headers = {
+            'Authorization' : 'Bearer ' + str(token),
+            'Content-Type': 'application/json'
+        }
+    data = {
+        "uris": ['spotify:track:' + songId]
+    }
+    res = requests.put(url, headers=headers, data=data)
+    player = json.loads(res.text)
+
+    return player
