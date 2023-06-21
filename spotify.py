@@ -2,9 +2,12 @@ import requests
 import base64
 import json
 
-client_ID = ''
-client_secret = ''
-refresh_token = ''
+with open('./credentials.json') as f:
+    credentials = json.load(f)
+
+client_ID = credentials['client_ID']
+client_secret = credentials['client_secret']
+refresh_token = credentials['refresh_token']
 
 join = client_ID + ":" + client_secret
 bytes = join.encode('ascii')
@@ -66,9 +69,10 @@ def startPlayback(token, songId):
             'Content-Type': 'application/json'
         }
     data = {
-        "uris": ['spotify:track:' + songId]
+        "uris": ["spotify:track:" + songId],
+        "position_ms": 0
     }
-    res = requests.put(url, headers=headers, data=data)
-    player = json.loads(res.text)
+    res = requests.put(url, headers=headers, data=json.dumps(data))
+    #player = json.loads(res.text)
 
-    return player
+    #return player
