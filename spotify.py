@@ -53,11 +53,11 @@ def getSongAnalysis(token, id):
 def getCurrentPosition(token):
     url = 'https://api.spotify.com/v1/me/player'
 
-    headers = {
-            'Authorization' : 'Bearer ' + str(token)
+    headers = {'Authorization' : 'Bearer ' + str(token)
         }
     res = requests.get(url, headers=headers)
-    player = json.loads(res.text)
+    player = aders = {
+       json.loads(res.text)}
 
     return player
 
